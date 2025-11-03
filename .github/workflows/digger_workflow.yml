@@ -7,7 +7,7 @@ on:
         description: 'run identifier'
         required: false
       job:
-        required: true
+        required: false
       comment_id:
         required: true
       run_name:
