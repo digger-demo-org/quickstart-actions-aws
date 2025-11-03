@@ -9,7 +9,7 @@ on:
       job:
         required: false
       comment_id:
-        required: true
+        required: false
       run_name:
         required: false
       spec:
