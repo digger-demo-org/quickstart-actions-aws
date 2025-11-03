@@ -42,4 +42,3 @@ jobs:
           disable-locking: false
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
