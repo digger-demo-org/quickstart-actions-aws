@@ -1,6 +1,11 @@
 name: Digger Pull Request Workflow
 
 on:
+  workflow_dispatch:
+    inputs:
+      spec:
+        description: 'optional digger spec'
+        required: false
   pull_request:
     types: [ opened, synchronize, reopened ]
   issue_comment:
