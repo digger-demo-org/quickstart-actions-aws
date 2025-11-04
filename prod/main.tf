@@ -6,7 +6,7 @@ terraform {
     }
   }
     backend "s3" {
-    bucket = "digger-s3backend-quickstart-aws-jalonso"              # Change if a different S3 bucket name was used for the backend 
+    bucket = "amzn-digger-demo-s3"              # Change if a different S3 bucket name was used for the backend 
     key    = "terraform/state"
     region = "us-east-1"
   }
