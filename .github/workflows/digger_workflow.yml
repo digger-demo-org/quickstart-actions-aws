@@ -34,6 +34,7 @@ jobs:
         run: echo digger run ${{ inputs.id }}
         shell: bash
       - uses: actions/checkout@v4
+      
       - uses: diggerhq/digger@vLatest
         with:
           setup-aws: true
