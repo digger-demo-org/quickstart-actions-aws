@@ -14,7 +14,7 @@ on:
         required: false
       spec:
         description: 'spec input for digger'
-        required: false
+        required: true
 
 run-name: ${{ inputs.run_name}}
 
