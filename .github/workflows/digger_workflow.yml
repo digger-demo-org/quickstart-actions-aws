@@ -22,6 +22,7 @@ jobs:
     - name: digger run
       uses: diggerhq/digger@vLatest
       with:
+        no-backend: true
         disable-locking: true
         setup-terraform: true
       env:
