@@ -4,5 +4,5 @@ plan_storage:
   region: us-east-1
 
 projects:
-- name: production
+- name: production-pce
   dir: prod
