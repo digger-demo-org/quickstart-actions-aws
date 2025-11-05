@@ -3,11 +3,12 @@ name: Digger Pull Request Workflow
 on:
   workflow_dispatch:
     inputs:
-      run_name:
-        required: false
       spec:
-        description: 'spec input for digger'
-        required: true
+        description: 'optional digger spec'
+        required: false
+      run_name:
+        description: 'optional run name sent by Digger'
+        required: false
 
 permissions:
   contents: write
