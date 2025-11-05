@@ -36,7 +36,7 @@ jobs:
     - name: digger run
       uses: diggerhq/digger@vLatest
       with:
-        no-backend: true
+        digger-spec: ${{ inputs.spec }}
         disable-locking: true
         setup-terraform: true
       env:
