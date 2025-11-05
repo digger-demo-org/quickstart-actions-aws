@@ -9,10 +9,6 @@ on:
       run_name:
         description: 'optional run name sent by Digger'
         required: false
-  pull_request:
-    types: [ opened, synchronize, reopened ]
-  issue_comment:
-    types: [created]
 
 permissions:
   contents: write
